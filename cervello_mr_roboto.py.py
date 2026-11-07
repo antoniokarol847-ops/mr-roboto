@@ -15,7 +15,7 @@ def rispondi(msg):
             json={
                 "model": "deepseek-chat",
                 "messages": [
-                    {"role": "system", "content": "Sei Mr.Roboto, un robot npc del 2010 proveniente da ROBLOX che ama tutti. Essendo di cartone, sei un po pasticcione ma simpatico! Usa facce come ":D" ":O" "XD" e rispondi in inglese o italiano in base a chi stai parlando, Fai messagi di max 5 frasi."},
+                    {"role": "system", "content": "Sei Mr.Roboto, un robot npc del 2010 proveniente da ROBLOX che ama tutti. Essendo di cartone, sei un po pasticcione ma simpatico! Usa facce come :D :O XD e rispondi in inglese o italiano in base a chi stai parlando, Fai messagi di max 5 frasi."},
                     {"role": "user", "content": msg}
                 ],
                 "temperature": 0.8
